@@ -1,0 +1,35 @@
+*{
+  font: monospace;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  color: rgb(51, 54, 255);
+}
+
+h3, p b{
+  color: rgb(226, 43, 43);
+}
+
+a, button{
+  color: rgb(255, 64, 0);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a, li b {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+a {text-decoration: none;} 
