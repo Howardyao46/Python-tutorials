@@ -1,14 +1,2 @@
-
-
-
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
-
-const js = async () => {
-console.log('Pythontutorials (pytutorials) version Alpha 1.1.2')
-await sleep(500)
-console.log('Welcome!')
-await sleep(200)
-console.log('link to the original Exploration: not supported')
-}
-
-js()
+console.log('Pythontutorials (pytutorials) Alpha 1.0.9')
+console.log('Note: The site-versions tab are not available anymore. Those who are still using Alpha 1.1.2 or 1.1.0, there will be a forced update to Alpha 1.0.9.')
