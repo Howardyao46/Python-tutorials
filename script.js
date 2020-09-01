@@ -1,3 +1,20 @@
-console.log('Pythontutorials (pytutorials) Alpha 1.1.9')
-console.log()
-console.log('Note: The site-versions tab are not available anymore. Those who are still using Alpha 1.1.2 or 1.1.0, there will be a forced update to Alpha 1.1.9.')
+console.log('Pythontutorials (pytutorials) version 1.2.5. Pytutorials 2020 version.')
+
+function broaden() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
