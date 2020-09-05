@@ -1,6 +1,7 @@
 <html>
 
-We got your response. Please check your inbox for replies.
+Feedback submitted. Thanks =)
+<p></p>
 <a href="index.html">Home</a>
 
 </html>

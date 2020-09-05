@@ -1,4 +1,4 @@
-console.log('Pythontutorials (pytutorials) version 1.2.5. Pytutorials 2020 version.')
+console.log('Pythontutorials (pytutorials) version 1.3.2. Pytutorials 2020 version.')
 
 function broaden() {
   // Declare variables
@@ -18,3 +18,14 @@ function broaden() {
     }
   }
 }
+
+function alertMe() {
+  alert('Warning! You have not been logged in.');
+  console.log('Error: You have not been logged in.')
+}
+
+// function tellMe() {
+//   alert('We got your response.');
+//   console.log('Feedback submitted.')
+// }
+

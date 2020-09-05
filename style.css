@@ -1,6 +1,8 @@
 *{
-  font: monospace;
+  font: monospace
+  /*font: sans-serif ||| version 1.4.3*/;
   font-family: 'Courier New', Courier, monospace;
+  /*delete in 1.4.3*/
 }
 
 h1{
@@ -20,9 +22,14 @@ a, button{
 }
 
 .HowardYao{
-  color: rgb(0, 255, 0);
+  color: rgb(0, 38, 255);
 }
 
 .super{
   size: 10rem;
 }
+
+h4 {
+  color: rgb(234, 0, 255)
+}
+
