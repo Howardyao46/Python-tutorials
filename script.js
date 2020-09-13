@@ -1,4 +1,4 @@
-console.log('Pythontutorials (pytutorials) version 1.3.2. Pytutorials 2020 version.')
+console.log('Pythontutorials (pytutorials) version 1.3.6. Pytutorials 2020 version.')
 
 function broaden() {
   // Declare variables
